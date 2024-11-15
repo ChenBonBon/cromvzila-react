@@ -13,7 +13,7 @@ export default function PDF() {
   const canvasRef = useRef(null);
 
   const { pdfDocument } = usePdf({
-    file: "https://bonbon.oss-cn-shanghai.aliyuncs.com/cromvzila/pdf-1.pdf",
+    file: "http://sn02ulv68.sabkt.gdipper.com/pdf-1.pdf",
     page,
     canvasRef,
   });
