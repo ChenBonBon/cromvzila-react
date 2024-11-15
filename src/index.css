@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1799px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 24px;
+  }
+}

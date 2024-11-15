@@ -1,0 +1,172 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "z"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "x"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "y"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼开闭"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "WatermarkCopyrightbelongtoZillala",
+			"GroupId": "",
+			"Name": "MadebyZillala"
+		},
+		{
+			"Id": "Param54",
+			"GroupId": "",
+			"Name": "Z"
+		},
+		{
+			"Id": "Param53",
+			"GroupId": "",
+			"Name": "输入Z触手"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "整体位移X"
+		},
+		{
+			"Id": "Param42",
+			"GroupId": "",
+			"Name": "眼星星角度位移X"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "身体变形X"
+		},
+		{
+			"Id": "Param45",
+			"GroupId": "",
+			"Name": "位移X触手形变"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "整体位移Y"
+		},
+		{
+			"Id": "Param43",
+			"GroupId": "",
+			"Name": "眼星星角度位移Y"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "身体变形Y"
+		},
+		{
+			"Id": "Param52",
+			"GroupId": "",
+			"Name": "位移Y触手形变"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "整体大小"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part9",
+			"Name": "海产"
+		},
+		{
+			"Id": "Part",
+			"Name": "狱警"
+		},
+		{
+			"Id": "Part10",
+			"Name": "星星"
+		},
+		{
+			"Id": "Part13",
+			"Name": "普通眼睛"
+		},
+		{
+			"Id": "Part14",
+			"Name": "工佬脸"
+		},
+		{
+			"Id": "Part15",
+			"Name": "星星"
+		},
+		{
+			"Id": "Part16",
+			"Name": "鱿鱼身体"
+		},
+		{
+			"Id": "Part17",
+			"Name": "章鱼身体"
+		},
+		{
+			"Id": "Part18",
+			"Name": "物件"
+		},
+		{
+			"Id": "Part2",
+			"Name": "帽子"
+		},
+		{
+			"Id": "Part3",
+			"Name": "鼻子"
+		},
+		{
+			"Id": "Part4",
+			"Name": "眼睛R"
+		},
+		{
+			"Id": "Part5",
+			"Name": "眼睛L"
+		},
+		{
+			"Id": "Part6",
+			"Name": "耳 R"
+		},
+		{
+			"Id": "Part7",
+			"Name": "耳L"
+		},
+		{
+			"Id": "body",
+			"Name": "身体"
+		}
+	]
+}
