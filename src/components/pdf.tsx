@@ -13,7 +13,7 @@ export default function PDF() {
   const canvasRef = useRef(null);
 
   const { pdfDocument } = usePdf({
-    file: "http://sn02ulv68.sabkt.gdipper.com/pdf-1.pdf",
+    file: "https://cdn.jsdelivr.net/gh/ChenBonBon/cromvzila-react@main/public/pdf-1.pdf",
     page,
     canvasRef,
   });
