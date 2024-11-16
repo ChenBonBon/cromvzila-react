@@ -2,9 +2,13 @@ import useAppStore from "../stores/app";
 
 export default function useApp() {
   const {
+    width,
+    height,
     bioVisible,
     easterEggVisible,
     maskVisible,
+    setWidth,
+    setHeight,
     setBioVisible,
     setEasterEggVisible,
     setMaskVisible,
@@ -35,9 +39,13 @@ export default function useApp() {
   }
 
   return {
+    width,
+    height,
     bioVisible,
     easterEggVisible,
     maskVisible,
+    setWidth,
+    setHeight,
     showBio,
     hideBio,
     showEasterEgg,

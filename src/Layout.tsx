@@ -1,17 +1,16 @@
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import EasterEgg from "./components/home/easter-egg";
+import useApp from "./hooks/useApp";
 import useOrientation from "./hooks/useOrientation";
 
 const ratio = 4096 / 2160;
 
 export default function Layout() {
-  const [width, setWidth] = useState(4096);
-  const [height, setHeight] = useState(2160);
-
+  const { width, height, setWidth, setHeight } = useApp();
   const { orientation } = useOrientation();
 
-  async function conputeSize() {
+  async function computeSize() {
     const innerWidth = window.innerWidth;
     const innerHeight = window.innerHeight;
 
@@ -25,12 +24,12 @@ export default function Layout() {
   }
 
   useEffect(() => {
-    conputeSize();
+    computeSize();
 
-    window.addEventListener("resize", conputeSize);
+    window.addEventListener("resize", computeSize);
 
     return () => {
-      window.removeEventListener("resize", conputeSize);
+      window.removeEventListener("resize", computeSize);
     };
   }, []);
 
