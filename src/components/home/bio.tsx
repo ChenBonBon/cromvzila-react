@@ -67,7 +67,7 @@ export default function Bio() {
 
   return (
     <div
-      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-max h-full z-40"
+      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-max h-full z-[60]"
       ref={containerRef}
     >
       <img
