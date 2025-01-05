@@ -43,7 +43,7 @@ export default function Nav() {
         className="w-auto h-full"
       />
       <span
-        className="absolute bottom-[39%] left-[42%] p-4"
+        className="absolute bottom-[39%] left-[42%] p-4 cursor-pointer"
         onClick={handleClickGame}
       ></span>
       <Link to="/folios">
