@@ -21,6 +21,10 @@ export default function Nav() {
     showMask();
   }
 
+  function handleClickGame() {
+    window.open("https://cat-blind-box.netlify.app/", "_blank");
+  }
+
   return (
     <div
       className={clsx(
@@ -38,6 +42,10 @@ export default function Nav() {
         alt="/images/home/nav.png"
         className="w-auto h-full"
       />
+      <span
+        className="absolute bottom-[39%] left-[42%] p-4"
+        onClick={handleClickGame}
+      ></span>
       <Link to="/folios">
         <img
           src="/images/home/artwork.png"
